@@ -1,3 +1,24 @@
+.shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(0.5px, 0.5px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-1.5px, 0px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(-0.5px, -0.5px) rotate(0.5deg);
+  }
+  100% {
+    transform: translate(0.5px, -1px) rotate(-0.5deg);
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -170,6 +191,27 @@ nav a {
   font-size: 1.6rem;
   color: #23293B;
   margin: 2%;
+}
+nav a:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(0.5px, 0.5px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-1.5px, 0px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(-0.5px, -0.5px) rotate(0.5deg);
+  }
+  100% {
+    transform: translate(0.5px, -1px) rotate(-0.5deg);
+  }
 }
 h1 {
   text-align: center;
