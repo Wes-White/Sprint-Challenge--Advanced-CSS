@@ -144,6 +144,7 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
+  font-size: 5rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -168,7 +169,14 @@ nav a {
   text-decoration: none;
   font-size: 1.6rem;
   color: black;
-  margin: 2%;
+  margin: 1%;
+}
+h1 {
+  text-align: center;
+  margin: 1%;
+}
+.home img {
+  border-radius: 10px;
 }
 .home .intro h2 {
   padding: 15px;
