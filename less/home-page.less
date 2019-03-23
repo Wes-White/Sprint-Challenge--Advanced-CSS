@@ -95,10 +95,15 @@ h1{
 
       .btn {
         .button(1.6rem, @porcelain, @btn-bg-color);
+       
+        &:hover{ 
+         .button (1.6rem, @btn-bg-color, @porcelain);
+        }
         @media @phone{ 
           width:95%;
           margin: 20px 10px 20px 10px;
           height: 50px;
+          
   
         }
     

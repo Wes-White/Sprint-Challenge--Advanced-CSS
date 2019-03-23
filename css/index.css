@@ -261,6 +261,15 @@ h1 {
   width: 100px;
   border-radius: 5px;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.6rem;
+  width: 100px;
+  border-radius: 5px;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 95%;
