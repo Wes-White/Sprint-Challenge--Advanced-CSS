@@ -168,7 +168,7 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 1.6rem;
-  color: black;
+  color: #23293B;
   margin: 1%;
 }
 h1 {
@@ -220,6 +220,15 @@ h1 {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F7F8;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.6rem;
+  width: 100px;
+  border-radius: 5px;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -227,7 +236,7 @@ h1 {
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 footer {
   color: #22283B;
