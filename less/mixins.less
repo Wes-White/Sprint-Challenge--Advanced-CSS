@@ -1,1 +1,33 @@
 // Mixins Here
+
+.button(@font, @color, @bgcolor){ 
+    background-color: @bgcolor;
+    color: @color;
+    text-align: center;
+    padding: 10px;
+    font-size: @font;
+    width:100px;
+    border-radius: 5px;
+    
+}
+
+.center(@justify){
+    display: flex;
+    justify-content: @justify;
+}
+
+.shake{ 
+    
+    &:hover{ 
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(.5px, .5px) rotate(0deg); }
+    25% { transform: translate(-1.5px, 0px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    75% { transform: translate(-.5px, -.5px) rotate(.5deg); }
+    100% { transform: translate(.5px, -1px) rotate(-.5deg); }
+  }
+}
